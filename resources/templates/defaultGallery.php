@@ -10,7 +10,6 @@
 						<a href="<?php echo $image['file_path']; ?>">
 							<img src="<?php echo $image['thumb_path']; ?>" alt="<?php echo $image['file_title']; ?>" name="edit"/>
 							<input type="hidden" name="fullUrl" value="<?php echo $image['file_path']; ?>">
-							
 						</a>
 							<!--<a href="simpledemo/flip.php">Flip</a>
 							<a href="simpledemo/blur.php">Blur</a>-->

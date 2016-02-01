@@ -9,10 +9,12 @@ $fullUrl = $_GET['fullUrl'];
 	</div>
 	
 	<div class="editTools">
-		<form action="simpledemo/blur.php" method="get">
+		<h2>Blur Image</h2>
+		<form action="blur.php" method="get">
 			<input type="hidden" name="fullUrl" value="<?php echo $fullUrl;?>">
 			<input type="submit">
 	</div>
-    
+
 	<div class="footer"></div>
 </div>
+

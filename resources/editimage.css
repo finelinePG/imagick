@@ -4,7 +4,6 @@
 }
 
 .imageWindow {
-	background-color: red;
 	width: 50%;
 	margin:5px;
 	float:left;
@@ -14,13 +13,12 @@
 	width: 100%;
 
 }
-
 .editTools {
 	width: 45%;
 	background-color:#eee;
     float:left;
 	margin:5px;
-
+	padding:10px;
 }
 .footer {
 	clear:both;
