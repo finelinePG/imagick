@@ -1,0 +1,27 @@
+.fullContainer {
+	border: 1px solid;
+    margin:5px;
+}
+
+.imageWindow {
+	background-color: red;
+	width: 50%;
+	margin:5px;
+	float:left;
+}
+
+.imageWindow img {
+	width: 100%;
+
+}
+
+.editTools {
+	width: 45%;
+	background-color:#eee;
+    float:left;
+	margin:5px;
+
+}
+.footer {
+	clear:both;
+}
