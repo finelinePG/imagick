@@ -1,10 +1,83 @@
+/* -------------------------------------------------------------------------------------- */
+/* -----| STYLING FROM UPLOAD PAGE |----------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+body{
+	font: 12px Arial,Tahoma,Helvetica,FreeSans,sans-serif;
+	text-transform: inherit;
+	color: #333;
+	background: #e7edee;
+	width: 100%;
+	line-height: 18px;
+}
+h1 {
+	margin-left:5%;
+}
+.fledit {
+	color: #012168;
+	background: none repeat scroll 0 0 transparent;
+	padding: 5px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	margin-top:5px;
+	float:right;
+}
+
+.fledit:hover {
+	background:#00A7E1;
+	border: 1px solid #00A7E1;
+	color: #fff;
+	-webkit-transition:background 0.6s ease-in-out;
+	-moz-transition:background 0.6s ease-in-out;
+	transition:background-color 0.6s ease-in-out;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+#galleryList li a.fldownload {
+	color: #012168;
+	text-decoration:none;
+	padding: 5px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	margin-top:5px;
+	float:left;
+}
+
+#galleryList li a.fldownload:hover {
+	background:#00A7E1;
+	border: 1px solid #00A7E1;
+	color: #fff;
+	-webkit-transition:background 0.6s ease-in-out;
+	-moz-transition:background 0.6s ease-in-out;
+	transition:background-color 0.6s ease-in-out;
+}
+
 /* -------------------------------------------------------------------------- */
 /* -----| GALLERY LIST |----------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
+#galleryWrapper { 
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
 
 #galleryList {
-    margin: 0;
-    padding: 0 4px;
+    /*margin: 0;
+	margin-left:5%;
+	margin-right:5%;
+    padding: 0 4px;*/
+	padding:10px;
+	background: white;
+	border: 2px solid #DBDBDB;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #galleryList li {
@@ -132,8 +205,3 @@
 *:first-child+html .clearfix {
     zoom: 1; /* IE7 */
 }
-
-/**
- * UberGallery.css created and implimented by,
- * Chris Kankiewicz -- http://www.ChrisKankiewicz.com
- */

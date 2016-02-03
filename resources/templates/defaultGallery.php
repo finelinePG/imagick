@@ -13,8 +13,9 @@
 						</a>
 							<!--<a href="simpledemo/flip.php">Flip</a>
 							<a href="simpledemo/blur.php">Blur</a>-->
-						<input type="submit">
+						<input type="submit" value="Edit" class="fledit">
 					</form>
+					<a href="<?php echo $image['file_path']; ?>" download="<?php echo $image['file_path']; ?>" title="<?php echo $image['file_title']; ?>" class="fldownload">Download</a>
                 </li>
             <?php endforeach; ?>
         </ul>
