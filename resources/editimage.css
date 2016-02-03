@@ -2,7 +2,9 @@
 	border: 1px solid;
     margin:5px;
 }
-
+h3 {
+font-family:sans-serif;
+}
 .imageWindow {
 	width: 50%;
 	margin:5px;

@@ -2,6 +2,9 @@
 <?php 
 $fullUrl = $_GET['fullUrl'];
 
+
+
+
 ?>
 <div class="fullContainer">
 	<div class="imageWindow">
@@ -9,10 +12,19 @@ $fullUrl = $_GET['fullUrl'];
 	</div>
 	
 	<div class="editTools">
-		<h2>Blur Image</h2>
+		<h3>Blur Image</h3>
 		<form action="blur.php" method="get">
 			<input type="hidden" name="fullUrl" value="<?php echo $fullUrl;?>">
-			<input type="submit">
+			<input type="submit" value="Blur Image">
+			</form>
+			
+		<h3>Flip Image</h3>
+		<form action="flip.php" method="get">
+			<input type="hidden" name="fullUrl" value="<?php echo $fullUrl;?>">
+			<input type="submit" value="Flip Image">
+			</form>
+			
+			
 	</div>
 
 	<div class="footer"></div>

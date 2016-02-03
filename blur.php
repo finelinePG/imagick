@@ -6,4 +6,3 @@ $imagick = new Imagick (__DIR__."/$fullUrl");
 		header("Content-Type: image/jpg");
 		echo $imagick->getImageBlob();
 ?>
-
