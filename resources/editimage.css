@@ -1,10 +1,26 @@
+body{
+	font: 12px Arial,Tahoma,Helvetica,FreeSans,sans-serif;
+	text-transform: inherit;
+	color: #333;
+	background: #e7edee;
+	line-height: 18px;
+}
+h1 {
+	margin-left:5%;
+	margin-top:18px;
+}
 .fullContainer {
-	border: 1px solid;
-    margin:5px;
+	/*width:90%;*/
+	margin-left:5%;
+	margin-right:5%;
+	padding:10px;
+	background: white;
+	border: 2px solid #DBDBDB;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
-h3 {
-font-family:sans-serif;
-}
+
 .imageWindow {
 	width: 50%;
 	margin:5px;
@@ -13,7 +29,6 @@ font-family:sans-serif;
 
 .imageWindow img {
 	width: 100%;
-
 }
 .editTools {
 	width: 45%;

@@ -1,12 +1,16 @@
 <link rel="stylesheet" href="resources/editimage.css" type="text/css">
 <?php 
 $fullUrl = $_GET['fullUrl'];
-
-
-
-
 ?>
+<html>
+<head>
+
+
+</head>
+<body>
+ <h1>Image Editor</h1>
 <div class="fullContainer">
+
 	<div class="imageWindow">
 		<img src="<?php echo $fullUrl;?>"/>
 	</div>
@@ -29,4 +33,7 @@ $fullUrl = $_GET['fullUrl'];
 
 	<div class="footer"></div>
 </div>
+
+</body>
+</html>
 
