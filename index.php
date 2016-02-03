@@ -3,11 +3,21 @@
     // Include the PhotoGallery class
     include('resources/PhotoGallery.php');
 	
+	//Get folder to load
+	if (isset($_GET['variable']))
+    {
+   $variable = $_GET['variable'] ;
+    }
+    else
+    {
+     $variable = './gallery-images/4-Color Process'; // default folder
+    }
+	
     // Initialize the PhotoGallery object
     $gallery = new PhotoGallery();
 
     // Initialize the gallery array
-    $galleryArray = $gallery->readImageDirectory('gallery-images');
+    $galleryArray = $gallery->readImageDirectory($variable);
 
     // Define theme path
     if (!defined('THEMEPATH')) {

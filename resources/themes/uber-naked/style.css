@@ -10,16 +10,49 @@ body{
 	width: 100%;
 	line-height: 18px;
 }
-h1 {
+.headertitle {
+	float:left;
+	width: 44%;
 	margin-left:5%;
 }
+.folderSelect {
+	float: right;
+	margin-right:5%;
+	width: 10%;
+	padding-top:10px;
+
+}
+.folderSelect .goButton{
+	color: #eee;
+	background: none repeat scroll 0 0 transparent;
+	background-color: #012168;
+	padding: 5px 10px;
+	margin-left:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	display:inline;
+
+}
+.folderSelect .goButton:hover{
+	background:#00A7E1;
+	border: 1px solid #00A7E1;
+	color: #fff;
+	-webkit-transition:background 0.6s ease-in-out;
+	-moz-transition:background 0.6s ease-in-out;
+	transition:background-color 0.6s ease-in-out;
+	cursor: pointer; 
+	cursor: hand;
+}
+
 .fledit {
 	color: #012168;
 	background: none repeat scroll 0 0 transparent;
 	padding: 5px 10px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 5px;
+	border-radius: 3px;
 	border: 1px solid #CCC;
 	margin-top:5px;
 	float:right;
@@ -39,10 +72,10 @@ h1 {
 #galleryList li a.fldownload {
 	color: #012168;
 	text-decoration:none;
-	padding: 5px 10px;
+	padding: 4px 10px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	border-radius: 5px;
+	border-radius: 3px;
 	border: 1px solid #CCC;
 	margin-top:5px;
 	float:left;

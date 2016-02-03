@@ -230,7 +230,7 @@ input[type="submit"]:active {
 						?>
 				</select>
 				</div>
-			<input type="submit" value="Upload">
+			<input type="submit" value="Upload" >
 		</form>
 	<a href="../index.php" class="flbutton">Go to Gallery</a>
 	</div>
